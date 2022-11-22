@@ -61,6 +61,7 @@ main{
     padding: 20px;
 }
 .right-box{
+    margin-top:3px; 
     background: white;
     height: 50%;
     padding: 20px;
@@ -112,7 +113,7 @@ h1,h2,h3,p,img{
 }
 #contactformulier > textarea{
     width: 100%;
-    height: 7.5rem;
+    height: 6rem;
 }
 #contactformulier > button{
     background: #D15F0F;
@@ -120,6 +121,7 @@ h1,h2,h3,p,img{
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
+    margin-bottom: 5px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~ BLOG PAGINA ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .color-btn{
@@ -161,22 +163,10 @@ h1,h2,h3,p,img{
     width: 80%;
 }
 .blog-output{
-height: 600px;
+height: 400px;
 overflow: hidden;
 width: 80%;
 text-overflow:clip;
-}
-@media only screen and (min-width: 768px){
-.blog-output{
-    width: 80%;
-    height: 400px;
-    overflow: hidden;
-    text-align: center;
-}
-.output-btn{
-    width: 
-    100%;
-}
 }
 .hidden{
     display: none;
@@ -268,7 +258,7 @@ textarea{
     }
             /* ~~~~ BLOG PAGINA ~~~*/
     .blog-img{
-        width: 40%;
+        width: 80%;
     }
     .hidden{
         display: flex;
@@ -279,6 +269,16 @@ textarea{
     #blog-default-box{
         display: flex;
         flex-direction: row;
+    }
+    .blog-output{
+        width: 80%;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+    .output-btn{
+        width: 
+        100%;
     }
             /* ~~~~ BEHEERPAGINA ~~~*/
     #beheerpagina-content{
