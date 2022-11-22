@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>Nieuwe Post</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1>MuziekSchool H&J</h1>
+            <span class="dikke-text">Blog</span>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="overons.html">Over ons</a></li>
+                <li><a href="tarieven.html">Tarieven</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://lailaismyname.github.io/muziekschool/">Motivational</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section id="beheerpagina-content">
+    <input type="text" id="titel-input" class="titel-invoer" placeholder="Titel">
+    <button class="beheerpagina-btn  beheerpagina-btn-white beheerpagina-btn-groot">Voorbeeld</button>
+    <button class="beheerpagina-btn beheerpagina-btn-orange beheerpagina-btn-groot add-btn">Publiceren</button>
+    <button class="beheerpagina-btn-klein"><img src="../afbeeldingen/icon/eye.png" alt="Voorbeeld"></button>
+    <button class="beheerpagina-btn-klein add-btn"><img src="../afbeeldingen/icon/plus.png" alt="Publiceren"></button>
+
+    <ul class="beheerpagina-options">
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/pencil.png" alt="Weergave"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/arrow-small-left.png" alt="Ongedaan maken"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/arrow-small-right.png" alt="Opnieuw"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/a.png" alt="Lettertype"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/t.png" alt="Lettergrootte"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/b.png" alt="Bold"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/italic.png" alt="Italic"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/underline.png" alt="Underlined"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/fill.png" alt="Achtergrond kleur"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/highlighter.png" alt="Letter kleur"></button></li>
+        <li><button class="beheerpagina-options-icons"><img src="../afbeeldingen/icon/more.png" alt="More"></button></li>
+    </ul>
+        <textarea  id="toggle"></textarea>
+    </section>
+    </main>
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        //waarom heb ik dit ook al weer hier gedaan?
+        const add = document.querySelectorAll('.add-btn');
+        $( add ).click(function() {
+            $( "#toggle" ).toggle( "fold" );
+        });
+    </script>
+</body>
+</html>
