@@ -107,6 +107,7 @@ h1,h2,h3,p,img{
 #contactformulier > input, select, label{
     width: 100%;
     height: 1.5rem;
+    background:white;
 }
 #contactformulier > input{
     padding: 5px;
