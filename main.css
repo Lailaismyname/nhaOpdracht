@@ -238,6 +238,15 @@ textarea{
     #detailpagina-output{
         padding: 20px 20px;
     }
+    #grote-letters-btn{
+        border: none;
+        background: #301400;
+        color:white;
+        font-weight: 700;
+        cursor: pointer;
+        height: 40px;
+    }
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MEDIA QUERIES ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media only screen and (min-width: 768px){
     main{

@@ -28,13 +28,13 @@ switch (page)  {
         if (maat == 'groot'){
             $('#detailpagina-output').animate({
                 fontSize: '2rem'},'slow'),
-            e.target.textContent = 'Kleine Lettertype';
+            e.target.textContent = 'Klik hier voor Kleine Lettertype';
             maat = 'klein';
         }
         else {
             $('#detailpagina-output').animate({
                 fontSize: '1rem'},'slow'),
-            e.target.textContent = 'Grote Lettertype';
+            e.target.textContent = 'Klik hier voor Grote Lettertype';
             maat = 'groot';
         }
       }); 
