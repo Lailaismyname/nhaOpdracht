@@ -8,6 +8,7 @@ School Bus Yellow               #FED81D
     margin: 0px;
     padding: 0px;
     box-sizing:border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~ UNIVERSELE OPMAAK ~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 header{
@@ -55,7 +56,7 @@ main{
 }
             /*left is bovenste box, right is onderste box*/
 .left-box{
-    margin-top:3px;     /* om de boxshadow te laten zien*/
+    margin-top:3px;   
     background: #FFB785;
     height: 50%;
     padding: 20px;
@@ -106,7 +107,6 @@ h1,h2,h3,p,img{
 #contactformulier > input, select, label{
     width: 100%;
     height: 1.5rem;
-    /*kan ik padding aan de placeholder geven?*/
 }
 #contactformulier > input{
     padding: 5px;
@@ -114,6 +114,7 @@ h1,h2,h3,p,img{
 #contactformulier > textarea{
     width: 100%;
     height: 6rem;
+    background: white;
 }
 #contactformulier > button{
     background: #D15F0F;
