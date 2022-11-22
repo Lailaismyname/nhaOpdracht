@@ -179,7 +179,7 @@ text-overflow:clip;
     padding: 10px;
 }
 .titel-invoer{
-    width: 80%;
+    width: 70%;
     border: none;
     border-bottom: 2px solid #D15F0F;
     height: 50px;
@@ -300,6 +300,9 @@ textarea{
     }
     .beheerpagina-btn-klein{
         display: none;
+    }
+    .titel-invoer{
+        width: 80%;
     }
 }
 
